@@ -1,0 +1,58 @@
+body{background-color: #0D1821;}
+nav{font-size: 130%;}
+
+header{color: #F2EBF0;
+	position: fixed;
+	padding-left: 3%;
+	padding-top: 2%;}
+
+*{
+	margin: 0;
+	padding: 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;}
+
+header{width: 100%;}
+
+.navegacion ul{
+	list-style: none;}
+
+.menu > li{
+	position: relative;
+	display: inline-block;
+	padding-right: 5%;
+	font-family: 'Amarante', cursive;}
+
+.menu > li > a{
+	display: block;
+	padding: 15px 20px;
+	color: white;
+	font-family: 'Amarante', cursive;
+	text-decoration: none;}
+
+.menu li a:hover{
+	color: #51CBF1;}
+
+/* Submenu*/
+.submenu{
+	position: absolute;
+	width: 100%;
+	visibility: hidden;
+	text-align: left;}
+
+.menu li:hover .submenu{
+	visibility: visible;} /* desde el "*" hasta acá es un código sacado en https://www.youtube.com/watch?v=3mdQuS8VHKg*/
+
+.menu li a{color: #F2EBF0;}
+
+
+.gif{background-image: url("img/gif.gif");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;} /* código sacado en https://www.freecodecamp.org/espanol/news/imagen-de-fondo-css-con-codigo-de-ejemplo-html/ */
+
+#tit{margin-top: 12%;
+margin-bottom: 12%;
+width: 100%;
+top: 100%;}
